@@ -1,0 +1,52 @@
+*{
+    margin: 0;  /*aca está la dif del footer en margin y padding*/
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root {
+    --yellow:#EAC926;
+    --dark-blue: #03264C;
+    --light-blue: #1259c3;
+    --gray: #666;
+    --light-gray: #ebebeb;
+    --green: #39b54a;
+  }
+.bodyClass{
+    background-color: rgb(178, 212, 235);/*IMPORTANTE sería la parte del body comun a todos*/
+}
+/*Estilo producto*/
+
+.contenedorProducto{
+    width: 100%;
+    border: solid 2px black;
+
+}
+
+.producto{
+    width: 100%;
+    border: solid 2px greenyellow;
+    margin: auto;
+   
+}
+.box-product{
+    width: 25%;
+    border: solid 2px yellow;
+    margin: auto;
+    background-color: #ebebeb;
+}
+.imagen{
+ display: block;
+ margin: auto;
+ width: 80%;
+}
+
+
+/*Descripcion producto*/
+.nombreProducto{
+    text-align: center;
+}
+
+.descripcionImagen{
+    margin-bottom: 2rem;
+}
